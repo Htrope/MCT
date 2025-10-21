@@ -1,9 +1,18 @@
+/* Reset global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-div{
+/* Aplica o fundo preto apenas nas divs que NÃO estão dentro da jornada-wrapper */
+body :not(.jornada-wrapper) > div {
   background-color: black;
+}
+
+/* Garante que o componente Jornada fique com fundo branco e isolado */
+.jornada-wrapper {
+  background-color: #ffffff;
+  position: relative;
+  z-index: 1;
 }
