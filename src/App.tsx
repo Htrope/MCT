@@ -1,5 +1,6 @@
 import './App.css'
 import Acesso from './components/Acesso'
+import CallToAction from './components/Btn'
 
 import FeedbackCards from './components/Feedbacks'
 import Footer from './components/Footer'
@@ -15,10 +16,9 @@ function App() {
     <div>
        <Header/>
        <Hero/>
-       
        <Acesso/>
+       <CallToAction/>
        <FeedbackCards/>
-      
        <Trilha/>
        <Footer/>
     </div>
