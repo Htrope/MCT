@@ -15,10 +15,10 @@ function App() {
     <div>
        <Header/>
        <Hero/>
-       <CallToAction/>
+       
        <Acesso/>
        <FeedbackCards/>
-       <CallToAction/>
+      
        <Trilha/>
        <Footer/>
     </div>
