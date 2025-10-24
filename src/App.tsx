@@ -6,6 +6,7 @@ import FeedbackCards from './components/Feedbacks'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import TimeSection from './components/Time'
 import Trilha from './components/Trilha'
 
 
@@ -20,6 +21,8 @@ function App() {
        <CallToAction/>
        <FeedbackCards/>
        <Trilha/>
+       <CallToAction/>
+       <TimeSection/>
        <Footer/>
     </div>
    
